@@ -1,0 +1,1 @@
+geth --networkid 5243 --datadir "./chaindata" --rpc --rpcport "8545" --rpccorsdomain "*" --port "30303" --nat "any" --preload "mineWhenNeeded.js" --rpcapi eth,web3,miner,personal,net,admin,txpool --nodiscover --gasprice 0
