@@ -1,1 +1,1 @@
-geth --networkid 5243 --datadir "./chaindata" --rpc --rpcport "8545" --rpccorsdomain "*" --port "30303" --nat "any" --preload "mineWhenNeeded.js" --rpcapi eth,web3,miner,personal,net,admin,txpool --nodiscover --gasprice 0
+geth --datadir "chaindata" --datadir.ancient "chaindata" --nousb --networkid 2020 --identity "Node_1" --rpc --rpcaddr "0.0.0.0" --rpcport "8545" --rpccorsdomain "*" --port "30303" --ws --wsaddr "0.0.0.0" --wsport "4585" --preload "./mineWhenNeeded.js" --nodiscover --gasprice 0 --gpoblocks 9999 --gpopercentile 0 --vmdebug --allow-insecure-unlock
